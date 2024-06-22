@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">  
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Calculator app</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400,700&display=swap">
+
+</head>
+<body class="body-color1">
+  <main class="calc-frame cf-color1">
+    
+    <div class="header">
+      <h4 class="text-color1">calc</h4>
+
+      <div class="right-header text-color1">
+        <p class="theme-tag">THEME</p>
+
+        <div>
+          <div>
+            <div class="theme-indication text-color1">
+              <p>1</p>
+              <p>2</p>
+              <p>3</p>
+            </div>
+
+            <div class="toggle-switch theme1-toogle-bg">
+              <input type="radio" name="theme" id="option1" value="option1" class="color" checked>
+              <label for="option1" id="option-theme1"></label>
+
+              <input type="radio" name="theme" id="option2" value="option2" class="color">
+              <label for="option2" id="option-theme2"></label>
+
+              <input type="radio" name="theme" id="option3" value="option3" class="color">
+              <label for="option3" id="option-theme3"></label>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+      
+    <div class="display-screen display-screen-bg1">
+      <p class="answer">0</p>
+    </div>
+
+    <div class="keypad theme1-toogle-bg">
+      <div class="row1">
+        <div tabindex="0" class="digit-keys t1-key1-bgcolor" data-number="7"><span>7</span></div>
+        <div tabindex="0" class="digit-keys t1-key1-bgcolor" data-number="8"><span>8</span></div>
+        <div tabindex="0" class="digit-keys t1-key1-bgcolor" data-number="9"><span>9</span></div>
+        <div tabindex="0" class="del-key t1-key2-bgcolor"><span>DEL</span></div>
+      </div>
+      <div class="row2">
+        <div tabindex="0" class="digit-keys t1-key1-bgcolor" data-number="4"><span>4</span></div>
+        <div tabindex="0" class="digit-keys t1-key1-bgcolor" data-number="5"><span>5</span></div>
+        <div tabindex="0" class="digit-keys t1-key1-bgcolor" data-number="6"><span>6</span></div>
+        <div tabindex="0" class="operator-btn t1-key1-bgcolor" data-operator="+"><span>+</span></div>
+      </div>
+      <div class="row3">
+        <div tabindex="0" class="digit-keys t1-key1-bgcolor" data-number="1"><span>1</span></div>
+        <div tabindex="0" class="digit-keys t1-key1-bgcolor" data-number="2"><span>2</span></div>
+        <div tabindex="0" class="digit-keys t1-key1-bgcolor" data-number="3"><span>3</span></div>
+        <div tabindex="0" class="operator-btn t1-key1-bgcolor" data-operator="-" ><span>-</span></div>
+      </div>
+      <div class="row4">
+        <div tabindex="0" class="dot-key t1-key1-bgcolor"><span>.</span></div>
+        <div tabindex="0" class="digit-keys t1-key1-bgcolor" data-number="0"><span>0</span></div>
+        <div tabindex="0" class="operator-btn t1-key1-bgcolor" data-operator="/" ><span>/</span></div>
+        <div tabindex="0" class="operator-btn t1-key1-bgcolor" data-operator="*" ><span>x</span></div>
+      </div>
+      <div class="row5">
+        <div tabindex="0" class="reset-key t1-key2-bgcolor"><span>RESET</span></div>
+        <div tabindex="0" class="equal-key t1-key3-bgcolor"><span>=</span></div>
+      </div>
+    </div>
+  
+  </main>
+
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+
+  <script src="script.js"></script>
+</body>
+</html>
